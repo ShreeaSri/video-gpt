@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import Header from "./Header";
 import { checkValidData } from "../utils/validate";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../utils/firebase";
 
 const Login = () => {
   const [signIn, setSignIn] = useState(true);
@@ -21,6 +23,25 @@ const Login = () => {
     );
 
     setErrorMessage(messgae);
+    if (messgae) return;
+
+    //sign in sign up logic
+    if (!signIn) {
+      //sign up logic
+      createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          // Signed up
+          const user = userCredential.user;
+          // ...
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          // ..
+        });
+    } else {
+      //sign in logic
+    }
   };
 
   const toggleSignInForm = (e) => {
