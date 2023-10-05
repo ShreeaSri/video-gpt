@@ -15,6 +15,7 @@
 - create our redux store with userSlice
 - Implemented Sign Out
 - Update profile
+- Fetch movies from TMDB
 
 # Features
 
