@@ -16,7 +16,11 @@
 - Implemented Sign Out
 - Update profile
 - BugFix: Sign up user displayName and profile picture update
-- BugFix: if the user is not looged in Redirect/browse to login page and vice versa
+- BugFix: if the user is not looged in Redirect/browse to login page and vice versa.
+- Unsubscribe to the onAuthStateChaned Callback.
+- Hardcoded values to the constants file.
+- Register TMDB API & create an app &get access token
+- Get data from TMDB now playing movie list
 
 # Features
 
