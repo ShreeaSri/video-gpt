@@ -21,6 +21,7 @@
 - Hardcoded values to the constants file.
 - Register TMDB API & create an app &get access token
 - Get data from TMDB now playing movie list
+- get Data of movie trailer
 
 # Features
 
