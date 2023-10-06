@@ -9,7 +9,7 @@ const MainContainer = () => {
 
   const random = Math.trunc(Math.random() * 20) + 1;
   //   console.log(random);
-  const mainMovie = movies[random];
+  const mainMovie = movies[2];
   //   console.log(mainMovie);
 
   const { original_title, overview, id } = mainMovie;
