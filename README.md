@@ -36,6 +36,7 @@
 - made new custom hooks for each movielist
 - Build Gpt Search button and slice for toggle feature.
 - Build Search page and Search Bar.
+- (\*) Multi-language feature in our App.
 
 # Features
 
