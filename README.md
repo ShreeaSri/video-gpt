@@ -37,6 +37,7 @@
 - Build Gpt Search button and slice for toggle feature.
 - Build Search page and Search Bar.
 - (\*) Multi-language feature in our App.
+- build recommendation feature use gpt api.
 
 # Features
 
