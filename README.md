@@ -37,7 +37,14 @@
 - Build Gpt Search button and slice for toggle feature.
 - Build Search page and Search Bar.
 - (\*) Multi-language feature in our App.
-- build recommendation feature use gpt api.
+- Get Open AI Api key.
+- Gpt search API call.
+  \_ fetched GPT Movies Sugesstions from TMDB.
+- Created gptSlice added data.
+- Reused Movie List component to make movie suggesion container.
+- memoization
+- Adding .env file to gitignore.
+- Made our Site Responsive.
 
 # Features
 
